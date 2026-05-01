@@ -1,0 +1,52 @@
+# =========================
+# CORE NLP / TRANSFORMERS
+# =========================
+torch
+transformers
+datasets
+sentencepiece
+
+# =========================
+# EVALUATION METRICS
+# =========================
+rouge_score
+sacrebleu
+
+# =========================
+# DATA PROCESSING
+# =========================
+pandas
+nltk
+tqdm
+pyyaml
+
+# =========================
+# VISUALIZATION / NOTEBOOK
+# =========================
+matplotlib
+notebook
+
+# =========================
+# UTILITIES / HELPERS
+# =========================
+py7zr
+python-box==6.0.2
+ensure==1.0.2
+
+# =========================
+# API (ONLY FOR DEPLOYMENT LATER)
+# =========================
+fastapi==0.78.0
+uvicorn==0.18.3
+Jinja2==3.1.2
+
+# =========================
+# AWS (OPTIONAL - NOT NEEDED NOW)
+# =========================
+boto3
+mypy-boto3-s3
+
+# =========================
+# LOCAL PACKAGE INSTALL
+# =========================
+-e .
